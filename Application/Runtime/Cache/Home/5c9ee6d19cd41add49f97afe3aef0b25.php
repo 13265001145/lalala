@@ -1,0 +1,95 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="astray.cn" />
+	<link href="/public/css/login.css" type="text/css" rel="stylesheet" rev="stylesheet"/>
+	<title>登录</title>
+    <script src="/Public/js/jquery.js"></script>
+    <script>
+    	$(document).ready(function(){
+            $("#jumpReg").click(function(){
+                window.location.href="/index.php/Home/User/register";
+            });
+			
+			 $("#forget").click(function(){
+				 if($("#user").val()=="")alert("请先输入用户名");
+				 else 
+				 {
+					 var user=$("#user").val();
+					 window.location.href="/index.php/Home/User/forget?user="+user;
+				 }
+            });
+        });
+    </script>
+</head>
+<body class="denglu02">
+<form name="login" enctype="multipart/form-data" method="post" action="/index.php/Home/User/dealLogin">
+	<div class="dl">
+		<div class="biaoti"><img src="/public/image/headTitle.JPG" /></div>
+		<div class="log">
+			<ul class="xuzhi02" style="margin-top:30px;">
+				 <li class="xz">注意事项</li>
+				 <li>1.注意事项一。</li>
+				 <li>2.注意事项二。</li>
+			</ul>
+            
+			  <ul class="deng02" style="margin-top:20px;">
+				<li style=" width:100%; height:60px;">
+					<p style="float:left;font-size:18px; color:#666;line-height:30px; ">用户名:</p> 
+					<input id="user" name="user" type="text" class="i-text"/>
+				</li>
+				<div style="clear:both;"></div>
+		
+				<li style=" width:100%; height:60px;"> 
+					<p style="float:left;font-size:18px; color:#666;line-height:30px; ">密&nbsp;&nbsp;&nbsp;码:</p> 
+					<input name="pwd" type="password" class="i-text" value="<?php echo ($pwd); ?>"/>
+				</li>
+				<div style="clear:both;"></div>
+				<li style=" width:100%; height:60px;">
+					<p style="float:left;font-size:18px; color:#666;line-height:30px; ">验证码:</p> 
+					<input name="code" class="i-text" type="text" errormsg="用户名至少6个字符,最多18个字符！" datatype="s6-18" ajaxurl="demo/valid.jsp" maxlength="100">
+				</li>
+                <li>
+                	<img style="margin-left:30px; margin-top:20px;" src="/index.php/Home/User/verify?+Math.random()" alt="验证码" onclick="this.src='/index.php/Home/User/verify?'+Math.random()" title="看不清，换一张"/>
+                </li>
+                
+				<li style=" width:100%; height:60px;">
+					<button id="logonbtn" class="btn-login02"  type="submit" > 
+					<span>登&nbsp;&nbsp;&nbsp;&nbsp;录</span>
+				  </button>
+                  
+                  <button id="jumpReg" class="btn-login02" type="button">
+                  <span>注&nbsp;&nbsp;&nbsp;&nbsp;册</span>
+                  </button>
+                  
+                  <button id="forget" class="btn-login02"  type="button" > 
+					<span>忘记密码</span>
+				  </button>
+                  
+				</li>
+                <br/><br/><br/><br/><br/><br/>
+			</ul>
+			
+		</div>
+	</div>
+   </form>
+</body>
+
+
+
+
+<!--
+<body>
+<form name="login" enctype="multipart/form-data" method="post" action="/index.php/Home/User/dealLogin">
+用户名：<input name="user" type="text"/>
+<br />
+密码：<input name="pwd" type="password"/>
+<br />
+<button type="submit">登录</button>
+<button id="jumpReg" type="button">注册</button>
+</form>
+-->
+
+</body>
+</html>

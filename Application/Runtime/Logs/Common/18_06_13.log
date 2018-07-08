@@ -1,0 +1,80 @@
+[ 2018-06-13T20:17:12+08:00 ] 127.0.0.1 /ad/thunder8/show/newadtask.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013443s ]
+ERR: 无法加载模块:Ad
+
+[ 2018-06-13T20:18:03+08:00 ] 127.0.0.1 /xmpad/title/adplayer-xmp4.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+ERR: 无法加载模块:Xmpad
+
+[ 2018-06-13T20:18:03+08:00 ] 127.0.0.1 /adconfig/pastead_config/pastead_config.lua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:05+08:00 ] 127.0.0.1 /cloud/tasklist_v2.1.dat?stamp=17695
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Cloud
+
+[ 2018-06-13T20:18:06+08:00 ] 127.0.0.1 /pusher/pusherfix_v1.1.dat?stamp=17695
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+ERR: 无法加载模块:Pusher
+
+[ 2018-06-13T20:18:08+08:00 ] 127.0.0.1 /adconfig/yellowconfig/yellowconfig.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:08+08:00 ] 127.0.0.1 /adconfig/toptipsconfig/toptipsconfig.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:08+08:00 ] 127.0.0.1 /adconfig/topbearconfig/topbearconfig.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:09+08:00 ] 127.0.0.1 /adconfig/topgiftbox_config/topgiftbox_config.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:09+08:00 ] 127.0.0.1 /adconfig/alientipsconfig/alientipsconfig.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:39+08:00 ] 127.0.0.1 /adconfig/niuxlinkconfig/niuxlinkconfig.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013391s ]
+ERR: 无法加载模块:Adconfig
+
+
+
+[ 2018-06-13T20:18:39+08:00 ] 127.0.0.1 /adconfig/middletipsconfig/middletipsconfig.lua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013393s ]
+ERR: 无法加载模块:Adconfig
+
+[ 2018-06-13T20:18:39+08:00 ] 127.0.0.1 /adconfig/fullscreenad_config/fullscreenad_config.lua?peerid=B2E5D5600000MLKE&version=5.1.26.4344&uid=314602813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013903s ]
+ERR: 无法加载模块:Adconfig
+

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="astray.cn" />
+
+	<title>测试页面</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/form.css" />
+    <script src="/public/js/jquery.js"></script>
+    <script src="/public/js/back.js"></script>
+    <script>
+	fname=new Array("用户名","密码","确认密码","密保问题","密保问题答案");
+        $(document).ready(function(){
+			var f= new Array("lalala","hahaha","kakaka");
+            $(".reg").click(function(){
+                //if($(".pwd").val()!=$(".surepwd").val()){
+                //   alert($(".pwd").val()); 
+             //   }  
+			for(var i=0;i<f.length;i++)
+				{
+						alert(fname[2]+"不允许为空!");
+						return false;
+				}
+            })
+        })
+    </script>
+</head>
+
+<body>
+<table  width="100%" border="1" cellpadding="
+0" cellspacing="0" bordercolor="#f4e4b3" class="table_b">
+<tr><td class="tb1">
+<input type="password" class="pwd"/>
+</td></tr>
+
+<tr><td class="tb2">
+<input type="password" class="surepwd"/>
+</td></tr>
+
+<tr><td class="tb3">
+<button type="button" class="reg">测试</button>
+</td></tr>
+
+<tr><td class="tb4">
+<input type="password" class="surepwd1"/>
+</td></tr>
+</table>
+
+</body>
+</html>

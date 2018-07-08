@@ -1,0 +1,139 @@
+td{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 2.2em;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: normal;
+}
+
+/*table*/
+.tb0{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #6996c4;
+	border-right-color: #6996c4;
+	border-bottom-color: #6996c4;
+	border-left-color: #6996c4;
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 2.2em;
+	vertical-align: middle;
+}
+.tb1{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #6996c4;
+	border-right-color: #6996c4;
+	border-bottom-color: #6996c4;
+	border-left-color: #6996c4;
+	background-color: #6996c4;
+	color: #FFFFFF;
+	font-size: 14px;
+        font-family: "宋体";
+	text-align: center;
+	height: 36px;
+	vertical-align: middle;
+}
+.tb2{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #6996c4;
+	border-right-color: #6996c4;
+	border-bottom-color: #6996c4;
+	border-left-color: #6996c4;
+	height: 34px;
+	vertical-align: middle;
+        font-family: "宋体";
+	font-size: 14px;
+        text-indent:6px    
+}
+.tb2 select{
+	height: 28px;
+	vertical-align: middle;
+        font-family: "宋体";
+	font-size: 14px;
+
+}
+.tb3{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #6996c4;
+	border-right-color: #6996c4;
+	border-bottom-color: #6996c4;
+	border-left-color: #6996c4;
+	background-color: #f2fafd;
+	height: 34px;
+	vertical-align: middle;
+        font-family: "宋体";
+	font-size: 14px;
+        text-indent:6px
+}
+.tb3 select{
+	height: 28px;
+	vertical-align: middle;
+        font-family: "宋体";
+	font-size: 14px;
+
+}
+.tb4{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #6996c4;
+	border-right-color: #6996c4;
+	border-bottom-color: #6996c4;
+	border-left-color: #6996c4;
+	background-color: #ffffff;
+}
+.table_b{
+    border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #6996c4;
+	border-right-color: #6996c4;
+	border-bottom-color: #6996c4;
+	border-left-color: #6996c4;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 2.2em;
+}
